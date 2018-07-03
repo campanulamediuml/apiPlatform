@@ -1,0 +1,2168 @@
+2018-02-01-14-18-41
+{
+ "AmazonEnvelope": {
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:noNamespaceSchemaLocation": "amzn-envelope.xsd",
+  "Header": {
+   "DocumentVersion": "1.02",
+   "MerchantIdentifier": "A23LGBE17JOXAI"
+  },
+  "MessageType": "ProcessingReport",
+  "Message": {
+   "MessageID": "1",
+   "ProcessingReport": {
+    "DocumentTransactionID": "50210017563",
+    "StatusCode": "Complete",
+    "ProcessingSummary": {
+     "MessagesProcessed": "1",
+     "MessagesSuccessful": "0",
+     "MessagesWithError": "1",
+     "MessagesWithWarning": "0"
+    },
+    "Result": [
+     {
+      "MessageID": "1",
+      "ResultCode": "Error",
+      "ResultMessageCode": "5000",
+      "ResultDescription": "XML Parsing Error at Line 36, Column 36: cvc-complex-type.2.4.d: Invalid content was found starting with element 'Parentage'. No child element is expected at this point.",
+      "AdditionalInfo": {
+       "SKU": "9500-blue-S"
+      }
+     },
+     {
+      "MessageID": "1",
+      "ResultCode": "Error",
+      "ResultMessageCode": "5000",
+      "ResultDescription": "XML Parsing Error at Line 38, Column 17: cvc-complex-type.2.4.a: Invalid content was found starting with element 'VariationTheme'. One of '{Parentage}' is expected.",
+      "AdditionalInfo": {
+       "SKU": "9500-blue-S"
+      }
+     },
+     {
+      "MessageID": "1",
+      "ResultCode": "Error",
+      "ResultMessageCode": "5000",
+      "ResultDescription": "XML Parsing Error at Line 34, Column 41: cvc-complex-type.2.4.b: The content of element 'BooksMisc' is not complete. One of '{Author, Binding}' is expected.",
+      "AdditionalInfo": {
+       "SKU": "9500-blue-S"
+      }
+     }
+    ]
+   }
+  }
+ }
+}
+
+
+2018-02-01-14-21-45
+{
+ "SubmitFeedResponse": {
+  "@xmlns": "http://mws.amazonaws.com/doc/2009-01-01/",
+  "SubmitFeedResult": {
+   "FeedSubmissionInfo": {
+    "FeedSubmissionId": "50211017563",
+    "FeedType": "_POST_PRODUCT_DATA_",
+    "SubmittedDate": "2018-02-01T06:21:45+00:00",
+    "FeedProcessingStatus": "_SUBMITTED_"
+   }
+  },
+  "ResponseMetadata": {
+   "RequestId": "a5861c80-cd42-4c25-bded-bde6ea33b521"
+  }
+ }
+}
+
+
+2018-02-01-14-22-17
+{
+ "GetFeedSubmissionListResponse": {
+  "@xmlns": "http://mws.amazonaws.com/doc/2009-01-01/",
+  "GetFeedSubmissionListResult": {
+   "HasNext": "true",
+   "FeedSubmissionInfo": [
+    {
+     "FeedProcessingStatus": "_IN_PROGRESS_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50211017563",
+     "StartedProcessingDate": "2018-02-01T06:22:04+00:00",
+     "SubmittedDate": "2018-02-01T06:21:45+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50210017563",
+     "StartedProcessingDate": "2018-02-01T06:11:59+00:00",
+     "SubmittedDate": "2018-02-01T06:11:41+00:00",
+     "CompletedProcessingDate": "2018-02-01T06:12:42+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50209017563",
+     "StartedProcessingDate": "2018-02-01T06:06:39+00:00",
+     "SubmittedDate": "2018-02-01T06:06:15+00:00",
+     "CompletedProcessingDate": "2018-02-01T06:07:18+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50208017563",
+     "StartedProcessingDate": "2018-02-01T05:56:25+00:00",
+     "SubmittedDate": "2018-02-01T05:56:03+00:00",
+     "CompletedProcessingDate": "2018-02-01T05:56:57+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50207017563",
+     "StartedProcessingDate": "2018-02-01T04:13:30+00:00",
+     "SubmittedDate": "2018-02-01T04:13:08+00:00",
+     "CompletedProcessingDate": "2018-02-01T04:13:58+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50206017563",
+     "StartedProcessingDate": "2018-02-01T04:10:35+00:00",
+     "SubmittedDate": "2018-02-01T04:10:10+00:00",
+     "CompletedProcessingDate": "2018-02-01T04:11:35+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50205017563",
+     "StartedProcessingDate": "2018-02-01T04:09:20+00:00",
+     "SubmittedDate": "2018-02-01T04:09:01+00:00",
+     "CompletedProcessingDate": "2018-02-01T04:09:58+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50204017563",
+     "StartedProcessingDate": "2018-02-01T04:02:18+00:00",
+     "SubmittedDate": "2018-02-01T04:01:58+00:00",
+     "CompletedProcessingDate": "2018-02-01T04:02:59+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50200017560",
+     "StartedProcessingDate": "2018-01-29T06:24:41+00:00",
+     "SubmittedDate": "2018-01-29T06:24:23+00:00",
+     "CompletedProcessingDate": "2018-01-29T06:25:53+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50189017550",
+     "StartedProcessingDate": "2018-01-19T03:29:13+00:00",
+     "SubmittedDate": "2018-01-19T03:28:47+00:00",
+     "CompletedProcessingDate": "2018-01-19T03:30:26+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50188017550",
+     "StartedProcessingDate": "2018-01-19T03:22:39+00:00",
+     "SubmittedDate": "2018-01-19T03:22:18+00:00",
+     "CompletedProcessingDate": "2018-01-19T03:23:04+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50187017550",
+     "StartedProcessingDate": "2018-01-19T03:18:36+00:00",
+     "SubmittedDate": "2018-01-19T03:18:16+00:00",
+     "CompletedProcessingDate": "2018-01-19T03:19:05+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50186017550",
+     "StartedProcessingDate": "2018-01-19T03:17:38+00:00",
+     "SubmittedDate": "2018-01-19T03:17:24+00:00",
+     "CompletedProcessingDate": "2018-01-19T03:18:28+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50185017550",
+     "StartedProcessingDate": "2018-01-19T03:02:06+00:00",
+     "SubmittedDate": "2018-01-19T03:00:51+00:00",
+     "CompletedProcessingDate": "2018-01-19T03:02:42+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50184017550",
+     "StartedProcessingDate": "2018-01-19T02:55:55+00:00",
+     "SubmittedDate": "2018-01-19T02:55:32+00:00",
+     "CompletedProcessingDate": "2018-01-19T02:56:23+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50183017550",
+     "StartedProcessingDate": "2018-01-19T02:41:18+00:00",
+     "SubmittedDate": "2018-01-19T02:40:51+00:00",
+     "CompletedProcessingDate": "2018-01-19T02:42:02+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50182017550",
+     "StartedProcessingDate": "2018-01-19T02:36:34+00:00",
+     "SubmittedDate": "2018-01-19T02:36:15+00:00",
+     "CompletedProcessingDate": "2018-01-19T02:37:21+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50181017550",
+     "StartedProcessingDate": "2018-01-19T02:28:40+00:00",
+     "SubmittedDate": "2018-01-19T02:28:22+00:00",
+     "CompletedProcessingDate": "2018-01-19T02:29:22+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50180017550",
+     "StartedProcessingDate": "2018-01-19T02:21:34+00:00",
+     "SubmittedDate": "2018-01-19T02:21:07+00:00",
+     "CompletedProcessingDate": "2018-01-19T02:22:47+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50179017550",
+     "StartedProcessingDate": "2018-01-19T01:54:33+00:00",
+     "SubmittedDate": "2018-01-19T01:54:10+00:00",
+     "CompletedProcessingDate": "2018-01-19T01:55:50+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50178017550",
+     "StartedProcessingDate": "2018-01-19T01:53:11+00:00",
+     "SubmittedDate": "2018-01-19T01:52:45+00:00",
+     "CompletedProcessingDate": "2018-01-19T01:55:17+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50175017548",
+     "StartedProcessingDate": "2018-01-17T01:20:46+00:00",
+     "SubmittedDate": "2018-01-17T01:20:32+00:00",
+     "CompletedProcessingDate": "2018-01-17T01:21:57+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50173017547",
+     "StartedProcessingDate": "2018-01-16T09:21:00+00:00",
+     "SubmittedDate": "2018-01-16T09:20:40+00:00",
+     "CompletedProcessingDate": "2018-01-16T09:22:10+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50172017547",
+     "StartedProcessingDate": "2018-01-16T08:48:02+00:00",
+     "SubmittedDate": "2018-01-16T08:47:44+00:00",
+     "CompletedProcessingDate": "2018-01-16T08:49:34+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50171017547",
+     "StartedProcessingDate": "2018-01-16T08:46:25+00:00",
+     "SubmittedDate": "2018-01-16T08:46:10+00:00",
+     "CompletedProcessingDate": "2018-01-16T08:47:09+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50170017547",
+     "StartedProcessingDate": "2018-01-16T08:43:02+00:00",
+     "SubmittedDate": "2018-01-16T08:42:42+00:00",
+     "CompletedProcessingDate": "2018-01-16T08:43:49+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50169017547",
+     "StartedProcessingDate": "2018-01-16T08:38:23+00:00",
+     "SubmittedDate": "2018-01-16T08:38:08+00:00",
+     "CompletedProcessingDate": "2018-01-16T08:39:10+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50168017547",
+     "StartedProcessingDate": "2018-01-16T08:35:42+00:00",
+     "SubmittedDate": "2018-01-16T08:35:26+00:00",
+     "CompletedProcessingDate": "2018-01-16T08:36:29+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50167017547",
+     "StartedProcessingDate": "2018-01-16T08:11:32+00:00",
+     "SubmittedDate": "2018-01-16T08:11:11+00:00",
+     "CompletedProcessingDate": "2018-01-16T08:12:31+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50166017547",
+     "StartedProcessingDate": "2018-01-16T08:06:13+00:00",
+     "SubmittedDate": "2018-01-16T08:06:00+00:00",
+     "CompletedProcessingDate": "2018-01-16T08:06:48+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50165017547",
+     "StartedProcessingDate": "2018-01-16T07:57:32+00:00",
+     "SubmittedDate": "2018-01-16T07:57:05+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:58:15+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50164017547",
+     "StartedProcessingDate": "2018-01-16T07:55:51+00:00",
+     "SubmittedDate": "2018-01-16T07:55:25+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:56:36+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50163017547",
+     "StartedProcessingDate": "2018-01-16T07:46:10+00:00",
+     "SubmittedDate": "2018-01-16T07:45:45+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:46:55+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50162017547",
+     "StartedProcessingDate": "2018-01-16T07:43:14+00:00",
+     "SubmittedDate": "2018-01-16T07:43:02+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:43:56+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50161017547",
+     "StartedProcessingDate": "2018-01-16T07:35:52+00:00",
+     "SubmittedDate": "2018-01-16T07:35:33+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:36:36+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50160017547",
+     "StartedProcessingDate": "2018-01-16T07:31:33+00:00",
+     "SubmittedDate": "2018-01-16T07:31:10+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:32:16+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50159017547",
+     "StartedProcessingDate": "2018-01-16T07:28:32+00:00",
+     "SubmittedDate": "2018-01-16T07:28:13+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:29:16+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50158017547",
+     "StartedProcessingDate": "2018-01-16T07:24:54+00:00",
+     "SubmittedDate": "2018-01-16T07:24:34+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:25:36+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50157017547",
+     "StartedProcessingDate": "2018-01-16T07:21:15+00:00",
+     "SubmittedDate": "2018-01-16T07:20:55+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:21:55+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50156017547",
+     "StartedProcessingDate": "2018-01-16T07:15:16+00:00",
+     "SubmittedDate": "2018-01-16T07:14:59+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:15:56+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50155017547",
+     "StartedProcessingDate": "2018-01-16T07:02:32+00:00",
+     "SubmittedDate": "2018-01-16T07:02:09+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:03:34+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50154017547",
+     "StartedProcessingDate": "2018-01-16T06:59:50+00:00",
+     "SubmittedDate": "2018-01-16T06:59:31+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:00:40+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50153017547",
+     "StartedProcessingDate": "2018-01-16T06:45:18+00:00",
+     "SubmittedDate": "2018-01-16T06:44:39+00:00",
+     "CompletedProcessingDate": "2018-01-16T06:49:27+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50152017547",
+     "StartedProcessingDate": "2018-01-16T06:04:31+00:00",
+     "SubmittedDate": "2018-01-16T06:04:12+00:00",
+     "CompletedProcessingDate": "2018-01-16T06:06:01+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50151017547",
+     "StartedProcessingDate": "2018-01-16T05:57:53+00:00",
+     "SubmittedDate": "2018-01-16T05:57:31+00:00",
+     "CompletedProcessingDate": "2018-01-16T05:59:18+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50150017547",
+     "StartedProcessingDate": "2018-01-16T05:54:09+00:00",
+     "SubmittedDate": "2018-01-16T05:53:47+00:00",
+     "CompletedProcessingDate": "2018-01-16T05:55:20+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50148017546",
+     "StartedProcessingDate": "2018-01-15T09:34:26+00:00",
+     "SubmittedDate": "2018-01-15T09:34:10+00:00",
+     "CompletedProcessingDate": "2018-01-15T09:35:39+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50147017546",
+     "StartedProcessingDate": "2018-01-15T09:31:06+00:00",
+     "SubmittedDate": "2018-01-15T09:30:46+00:00",
+     "CompletedProcessingDate": "2018-01-15T09:32:24+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50146017546",
+     "StartedProcessingDate": "2018-01-15T08:04:13+00:00",
+     "SubmittedDate": "2018-01-15T08:03:58+00:00",
+     "CompletedProcessingDate": "2018-01-15T08:06:15+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50145017546",
+     "StartedProcessingDate": "2018-01-15T03:08:28+00:00",
+     "SubmittedDate": "2018-01-15T03:08:14+00:00",
+     "CompletedProcessingDate": "2018-01-15T03:09:50+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50144017546",
+     "StartedProcessingDate": "2018-01-15T02:57:56+00:00",
+     "SubmittedDate": "2018-01-15T02:57:27+00:00",
+     "CompletedProcessingDate": "2018-01-15T02:59:23+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50143017546",
+     "StartedProcessingDate": "2018-01-15T02:45:16+00:00",
+     "SubmittedDate": "2018-01-15T02:44:54+00:00",
+     "CompletedProcessingDate": "2018-01-15T02:46:43+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50142017546",
+     "StartedProcessingDate": "2018-01-15T02:21:16+00:00",
+     "SubmittedDate": "2018-01-15T02:20:51+00:00",
+     "CompletedProcessingDate": "2018-01-15T02:22:45+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50141017546",
+     "StartedProcessingDate": "2018-01-15T01:35:48+00:00",
+     "SubmittedDate": "2018-01-15T01:35:23+00:00",
+     "CompletedProcessingDate": "2018-01-15T01:36:24+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50140017546",
+     "StartedProcessingDate": "2018-01-15T01:22:53+00:00",
+     "SubmittedDate": "2018-01-15T01:22:37+00:00",
+     "CompletedProcessingDate": "2018-01-15T01:24:13+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50136017543",
+     "StartedProcessingDate": "2018-01-12T06:09:39+00:00",
+     "SubmittedDate": "2018-01-12T06:09:24+00:00",
+     "CompletedProcessingDate": "2018-01-13T00:13:18+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50135017543",
+     "StartedProcessingDate": "2018-01-12T03:54:24+00:00",
+     "SubmittedDate": "2018-01-12T03:54:01+00:00",
+     "CompletedProcessingDate": "2018-01-12T03:56:09+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50134017543",
+     "StartedProcessingDate": "2018-01-12T03:45:52+00:00",
+     "SubmittedDate": "2018-01-12T03:45:15+00:00",
+     "CompletedProcessingDate": "2018-01-12T03:47:22+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50133017543",
+     "StartedProcessingDate": "2018-01-12T03:42:03+00:00",
+     "SubmittedDate": "2018-01-12T03:41:50+00:00",
+     "CompletedProcessingDate": "2018-01-12T03:43:10+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50132017543",
+     "StartedProcessingDate": "2018-01-12T02:58:39+00:00",
+     "SubmittedDate": "2018-01-12T02:58:18+00:00",
+     "CompletedProcessingDate": "2018-01-12T02:59:46+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50131017543",
+     "StartedProcessingDate": "2018-01-12T02:42:43+00:00",
+     "SubmittedDate": "2018-01-12T02:42:22+00:00",
+     "CompletedProcessingDate": "2018-01-12T02:43:48+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50130017543",
+     "StartedProcessingDate": "2018-01-12T02:14:20+00:00",
+     "SubmittedDate": "2018-01-12T02:13:49+00:00",
+     "CompletedProcessingDate": "2018-01-12T02:15:43+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50129017543",
+     "StartedProcessingDate": "2018-01-12T02:02:03+00:00",
+     "SubmittedDate": "2018-01-12T02:01:44+00:00",
+     "CompletedProcessingDate": "2018-01-12T02:03:23+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50127017542",
+     "StartedProcessingDate": "2018-01-12T00:42:15+00:00",
+     "SubmittedDate": "2018-01-11T06:26:44+00:00",
+     "CompletedProcessingDate": "2018-01-12T00:42:55+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50126017542",
+     "StartedProcessingDate": "2018-01-11T06:24:44+00:00",
+     "SubmittedDate": "2018-01-11T06:24:18+00:00",
+     "CompletedProcessingDate": "2018-01-12T00:41:43+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50125017542",
+     "StartedProcessingDate": "2018-01-11T05:37:51+00:00",
+     "SubmittedDate": "2018-01-11T05:37:30+00:00",
+     "CompletedProcessingDate": "2018-01-11T05:38:35+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50123017541",
+     "StartedProcessingDate": "2018-01-10T21:35:28+00:00",
+     "SubmittedDate": "2018-01-10T05:29:21+00:00",
+     "CompletedProcessingDate": "2018-01-10T21:36:18+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50122017541",
+     "SubmittedDate": "2018-01-10T03:45:38+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50121017541",
+     "SubmittedDate": "2018-01-10T02:24:34+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50120017541",
+     "SubmittedDate": "2018-01-10T01:42:55+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50119017541",
+     "StartedProcessingDate": "2018-01-10T01:33:05+00:00",
+     "SubmittedDate": "2018-01-10T01:32:44+00:00",
+     "CompletedProcessingDate": "2018-01-10T21:35:09+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50117017540",
+     "StartedProcessingDate": "2018-01-09T19:57:32+00:00",
+     "SubmittedDate": "2018-01-09T09:31:00+00:00",
+     "CompletedProcessingDate": "2018-01-09T21:31:04+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50116017540",
+     "StartedProcessingDate": "2018-01-09T19:57:13+00:00",
+     "SubmittedDate": "2018-01-09T07:41:08+00:00",
+     "CompletedProcessingDate": "2018-01-09T19:57:51+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50115017540",
+     "SubmittedDate": "2018-01-09T05:31:10+00:00",
+     "CompletedProcessingDate": "2018-01-09T09:25:44+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50114017540",
+     "StartedProcessingDate": "2018-01-09T19:53:53+00:00",
+     "SubmittedDate": "2018-01-09T05:29:39+00:00",
+     "CompletedProcessingDate": "2018-01-09T19:57:03+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50113017540",
+     "SubmittedDate": "2018-01-09T03:44:20+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50111017539",
+     "SubmittedDate": "2018-01-08T07:16:51+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50110017539",
+     "SubmittedDate": "2018-01-08T07:01:36+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50109017539",
+     "SubmittedDate": "2018-01-08T06:08:45+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50108017539",
+     "StartedProcessingDate": "2018-01-09T01:48:08+00:00",
+     "SubmittedDate": "2018-01-08T06:01:13+00:00",
+     "CompletedProcessingDate": "2018-01-09T19:53:33+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50107017539",
+     "StartedProcessingDate": "2018-01-08T05:53:38+00:00",
+     "SubmittedDate": "2018-01-08T05:53:21+00:00",
+     "CompletedProcessingDate": "2018-01-09T01:47:46+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50106017539",
+     "StartedProcessingDate": "2018-01-08T05:46:10+00:00",
+     "SubmittedDate": "2018-01-08T05:45:44+00:00",
+     "CompletedProcessingDate": "2018-01-08T05:46:55+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50105017539",
+     "StartedProcessingDate": "2018-01-08T05:43:55+00:00",
+     "SubmittedDate": "2018-01-08T05:43:36+00:00",
+     "CompletedProcessingDate": "2018-01-08T05:44:35+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50104017539",
+     "StartedProcessingDate": "2018-01-08T02:49:11+00:00",
+     "SubmittedDate": "2018-01-08T02:48:52+00:00",
+     "CompletedProcessingDate": "2018-01-08T02:49:44+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50103017539",
+     "StartedProcessingDate": "2018-01-08T02:48:02+00:00",
+     "SubmittedDate": "2018-01-08T02:47:30+00:00",
+     "CompletedProcessingDate": "2018-01-08T02:49:20+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50102017539",
+     "StartedProcessingDate": "2018-01-08T02:41:46+00:00",
+     "SubmittedDate": "2018-01-08T02:41:30+00:00",
+     "CompletedProcessingDate": "2018-01-08T02:42:17+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50101017539",
+     "StartedProcessingDate": "2018-01-08T02:41:08+00:00",
+     "SubmittedDate": "2018-01-08T02:40:52+00:00",
+     "CompletedProcessingDate": "2018-01-08T02:41:57+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50100017539",
+     "StartedProcessingDate": "2018-01-08T02:38:10+00:00",
+     "SubmittedDate": "2018-01-08T02:37:09+00:00",
+     "CompletedProcessingDate": "2018-01-08T02:38:57+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50099017539",
+     "StartedProcessingDate": "2018-01-08T02:34:36+00:00",
+     "SubmittedDate": "2018-01-08T02:34:24+00:00",
+     "CompletedProcessingDate": "2018-01-08T02:36:00+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50098017539",
+     "StartedProcessingDate": "2018-01-08T02:33:44+00:00",
+     "SubmittedDate": "2018-01-08T02:33:19+00:00",
+     "CompletedProcessingDate": "2018-01-08T02:34:17+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50094017536",
+     "StartedProcessingDate": "2018-01-05T07:28:04+00:00",
+     "SubmittedDate": "2018-01-05T07:27:51+00:00",
+     "CompletedProcessingDate": "2018-01-05T07:28:45+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50093017536",
+     "StartedProcessingDate": "2018-01-05T07:21:59+00:00",
+     "SubmittedDate": "2018-01-05T07:21:37+00:00",
+     "CompletedProcessingDate": "2018-01-05T07:23:04+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50092017536",
+     "StartedProcessingDate": "2018-01-05T07:21:21+00:00",
+     "SubmittedDate": "2018-01-05T07:21:02+00:00",
+     "CompletedProcessingDate": "2018-01-05T07:22:25+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50091017536",
+     "StartedProcessingDate": "2018-01-05T07:11:59+00:00",
+     "SubmittedDate": "2018-01-05T07:11:37+00:00",
+     "CompletedProcessingDate": "2018-01-05T07:12:41+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50090017536",
+     "StartedProcessingDate": "2018-01-05T07:07:02+00:00",
+     "SubmittedDate": "2018-01-05T07:06:49+00:00",
+     "CompletedProcessingDate": "2018-01-05T07:07:50+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50089017536",
+     "StartedProcessingDate": "2018-01-05T07:06:20+00:00",
+     "SubmittedDate": "2018-01-05T07:06:03+00:00",
+     "CompletedProcessingDate": "2018-01-05T07:07:00+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50088017536",
+     "StartedProcessingDate": "2018-01-05T07:04:45+00:00",
+     "SubmittedDate": "2018-01-05T07:04:31+00:00",
+     "CompletedProcessingDate": "2018-01-05T07:06:20+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50087017536",
+     "StartedProcessingDate": "2018-01-05T06:58:00+00:00",
+     "SubmittedDate": "2018-01-05T06:57:33+00:00",
+     "CompletedProcessingDate": "2018-01-05T06:59:07+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50086017536",
+     "StartedProcessingDate": "2018-01-05T06:46:22+00:00",
+     "SubmittedDate": "2018-01-05T06:45:55+00:00",
+     "CompletedProcessingDate": "2018-01-05T06:47:40+00:00"
+    }
+   ],
+   "NextToken": "1ygK1n2VeF32jpZedg0wbd5NQrk5OwjOkqXfxeqxsFSiJCFVdviczmO7jXjy/VwtICyhlLgHd4hT171PgPvOgEWENtRn4dCb+Ycqm7FueeyJmF6B4RCWD/vCopH67G/Xg40rM031nD3YsS3783kcZOR848YQWvC4dpywvsWR4fwPpnzws36KsPOFsSl6sjyej/Opu4UNNvRetoY4qbaMvnj1V8Hh4DhgTDdilOBpKRuTMu79SYH3fhSapAU85zzs/ZRuEluYfwaKXcKZyiH7NFPnDz2p3xCIWZjF74HHL2R7cRJdJZJpg6Joec5u1ZcKw/q75nYgdPsZcvJ8hXZS4h5zIM+C3aYbq87oyLmx1tWGbeN6W6zXOaoZPmsf24TpcI5ixVjyvwY="
+  },
+  "ResponseMetadata": {
+   "RequestId": "9d60fa6b-931d-4e9b-ae8c-30475dbc076d"
+  }
+ }
+}
+
+
+2018-02-01-14-24-31
+{
+ "GetFeedSubmissionListResponse": {
+  "@xmlns": "http://mws.amazonaws.com/doc/2009-01-01/",
+  "GetFeedSubmissionListResult": {
+   "HasNext": "true",
+   "FeedSubmissionInfo": [
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50211017563",
+     "StartedProcessingDate": "2018-02-01T06:22:04+00:00",
+     "SubmittedDate": "2018-02-01T06:21:45+00:00",
+     "CompletedProcessingDate": "2018-02-01T06:22:43+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50210017563",
+     "StartedProcessingDate": "2018-02-01T06:11:59+00:00",
+     "SubmittedDate": "2018-02-01T06:11:41+00:00",
+     "CompletedProcessingDate": "2018-02-01T06:12:42+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50209017563",
+     "StartedProcessingDate": "2018-02-01T06:06:39+00:00",
+     "SubmittedDate": "2018-02-01T06:06:15+00:00",
+     "CompletedProcessingDate": "2018-02-01T06:07:18+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50208017563",
+     "StartedProcessingDate": "2018-02-01T05:56:25+00:00",
+     "SubmittedDate": "2018-02-01T05:56:03+00:00",
+     "CompletedProcessingDate": "2018-02-01T05:56:57+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50207017563",
+     "StartedProcessingDate": "2018-02-01T04:13:30+00:00",
+     "SubmittedDate": "2018-02-01T04:13:08+00:00",
+     "CompletedProcessingDate": "2018-02-01T04:13:58+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50206017563",
+     "StartedProcessingDate": "2018-02-01T04:10:35+00:00",
+     "SubmittedDate": "2018-02-01T04:10:10+00:00",
+     "CompletedProcessingDate": "2018-02-01T04:11:35+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50205017563",
+     "StartedProcessingDate": "2018-02-01T04:09:20+00:00",
+     "SubmittedDate": "2018-02-01T04:09:01+00:00",
+     "CompletedProcessingDate": "2018-02-01T04:09:58+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50204017563",
+     "StartedProcessingDate": "2018-02-01T04:02:18+00:00",
+     "SubmittedDate": "2018-02-01T04:01:58+00:00",
+     "CompletedProcessingDate": "2018-02-01T04:02:59+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50200017560",
+     "StartedProcessingDate": "2018-01-29T06:24:41+00:00",
+     "SubmittedDate": "2018-01-29T06:24:23+00:00",
+     "CompletedProcessingDate": "2018-01-29T06:25:53+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50189017550",
+     "StartedProcessingDate": "2018-01-19T03:29:13+00:00",
+     "SubmittedDate": "2018-01-19T03:28:47+00:00",
+     "CompletedProcessingDate": "2018-01-19T03:30:26+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50188017550",
+     "StartedProcessingDate": "2018-01-19T03:22:39+00:00",
+     "SubmittedDate": "2018-01-19T03:22:18+00:00",
+     "CompletedProcessingDate": "2018-01-19T03:23:04+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50187017550",
+     "StartedProcessingDate": "2018-01-19T03:18:36+00:00",
+     "SubmittedDate": "2018-01-19T03:18:16+00:00",
+     "CompletedProcessingDate": "2018-01-19T03:19:05+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50186017550",
+     "StartedProcessingDate": "2018-01-19T03:17:38+00:00",
+     "SubmittedDate": "2018-01-19T03:17:24+00:00",
+     "CompletedProcessingDate": "2018-01-19T03:18:28+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50185017550",
+     "StartedProcessingDate": "2018-01-19T03:02:06+00:00",
+     "SubmittedDate": "2018-01-19T03:00:51+00:00",
+     "CompletedProcessingDate": "2018-01-19T03:02:42+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50184017550",
+     "StartedProcessingDate": "2018-01-19T02:55:55+00:00",
+     "SubmittedDate": "2018-01-19T02:55:32+00:00",
+     "CompletedProcessingDate": "2018-01-19T02:56:23+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50183017550",
+     "StartedProcessingDate": "2018-01-19T02:41:18+00:00",
+     "SubmittedDate": "2018-01-19T02:40:51+00:00",
+     "CompletedProcessingDate": "2018-01-19T02:42:02+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50182017550",
+     "StartedProcessingDate": "2018-01-19T02:36:34+00:00",
+     "SubmittedDate": "2018-01-19T02:36:15+00:00",
+     "CompletedProcessingDate": "2018-01-19T02:37:21+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50181017550",
+     "StartedProcessingDate": "2018-01-19T02:28:40+00:00",
+     "SubmittedDate": "2018-01-19T02:28:22+00:00",
+     "CompletedProcessingDate": "2018-01-19T02:29:22+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50180017550",
+     "StartedProcessingDate": "2018-01-19T02:21:34+00:00",
+     "SubmittedDate": "2018-01-19T02:21:07+00:00",
+     "CompletedProcessingDate": "2018-01-19T02:22:47+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50179017550",
+     "StartedProcessingDate": "2018-01-19T01:54:33+00:00",
+     "SubmittedDate": "2018-01-19T01:54:10+00:00",
+     "CompletedProcessingDate": "2018-01-19T01:55:50+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50178017550",
+     "StartedProcessingDate": "2018-01-19T01:53:11+00:00",
+     "SubmittedDate": "2018-01-19T01:52:45+00:00",
+     "CompletedProcessingDate": "2018-01-19T01:55:17+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50175017548",
+     "StartedProcessingDate": "2018-01-17T01:20:46+00:00",
+     "SubmittedDate": "2018-01-17T01:20:32+00:00",
+     "CompletedProcessingDate": "2018-01-17T01:21:57+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50173017547",
+     "StartedProcessingDate": "2018-01-16T09:21:00+00:00",
+     "SubmittedDate": "2018-01-16T09:20:40+00:00",
+     "CompletedProcessingDate": "2018-01-16T09:22:10+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50172017547",
+     "StartedProcessingDate": "2018-01-16T08:48:02+00:00",
+     "SubmittedDate": "2018-01-16T08:47:44+00:00",
+     "CompletedProcessingDate": "2018-01-16T08:49:34+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50171017547",
+     "StartedProcessingDate": "2018-01-16T08:46:25+00:00",
+     "SubmittedDate": "2018-01-16T08:46:10+00:00",
+     "CompletedProcessingDate": "2018-01-16T08:47:09+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50170017547",
+     "StartedProcessingDate": "2018-01-16T08:43:02+00:00",
+     "SubmittedDate": "2018-01-16T08:42:42+00:00",
+     "CompletedProcessingDate": "2018-01-16T08:43:49+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50169017547",
+     "StartedProcessingDate": "2018-01-16T08:38:23+00:00",
+     "SubmittedDate": "2018-01-16T08:38:08+00:00",
+     "CompletedProcessingDate": "2018-01-16T08:39:10+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50168017547",
+     "StartedProcessingDate": "2018-01-16T08:35:42+00:00",
+     "SubmittedDate": "2018-01-16T08:35:26+00:00",
+     "CompletedProcessingDate": "2018-01-16T08:36:29+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50167017547",
+     "StartedProcessingDate": "2018-01-16T08:11:32+00:00",
+     "SubmittedDate": "2018-01-16T08:11:11+00:00",
+     "CompletedProcessingDate": "2018-01-16T08:12:31+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50166017547",
+     "StartedProcessingDate": "2018-01-16T08:06:13+00:00",
+     "SubmittedDate": "2018-01-16T08:06:00+00:00",
+     "CompletedProcessingDate": "2018-01-16T08:06:48+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50165017547",
+     "StartedProcessingDate": "2018-01-16T07:57:32+00:00",
+     "SubmittedDate": "2018-01-16T07:57:05+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:58:15+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50164017547",
+     "StartedProcessingDate": "2018-01-16T07:55:51+00:00",
+     "SubmittedDate": "2018-01-16T07:55:25+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:56:36+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50163017547",
+     "StartedProcessingDate": "2018-01-16T07:46:10+00:00",
+     "SubmittedDate": "2018-01-16T07:45:45+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:46:55+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50162017547",
+     "StartedProcessingDate": "2018-01-16T07:43:14+00:00",
+     "SubmittedDate": "2018-01-16T07:43:02+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:43:56+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50161017547",
+     "StartedProcessingDate": "2018-01-16T07:35:52+00:00",
+     "SubmittedDate": "2018-01-16T07:35:33+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:36:36+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50160017547",
+     "StartedProcessingDate": "2018-01-16T07:31:33+00:00",
+     "SubmittedDate": "2018-01-16T07:31:10+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:32:16+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50159017547",
+     "StartedProcessingDate": "2018-01-16T07:28:32+00:00",
+     "SubmittedDate": "2018-01-16T07:28:13+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:29:16+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50158017547",
+     "StartedProcessingDate": "2018-01-16T07:24:54+00:00",
+     "SubmittedDate": "2018-01-16T07:24:34+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:25:36+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50157017547",
+     "StartedProcessingDate": "2018-01-16T07:21:15+00:00",
+     "SubmittedDate": "2018-01-16T07:20:55+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:21:55+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50156017547",
+     "StartedProcessingDate": "2018-01-16T07:15:16+00:00",
+     "SubmittedDate": "2018-01-16T07:14:59+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:15:56+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50155017547",
+     "StartedProcessingDate": "2018-01-16T07:02:32+00:00",
+     "SubmittedDate": "2018-01-16T07:02:09+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:03:34+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50154017547",
+     "StartedProcessingDate": "2018-01-16T06:59:50+00:00",
+     "SubmittedDate": "2018-01-16T06:59:31+00:00",
+     "CompletedProcessingDate": "2018-01-16T07:00:40+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50153017547",
+     "StartedProcessingDate": "2018-01-16T06:45:18+00:00",
+     "SubmittedDate": "2018-01-16T06:44:39+00:00",
+     "CompletedProcessingDate": "2018-01-16T06:49:27+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50152017547",
+     "StartedProcessingDate": "2018-01-16T06:04:31+00:00",
+     "SubmittedDate": "2018-01-16T06:04:12+00:00",
+     "CompletedProcessingDate": "2018-01-16T06:06:01+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50151017547",
+     "StartedProcessingDate": "2018-01-16T05:57:53+00:00",
+     "SubmittedDate": "2018-01-16T05:57:31+00:00",
+     "CompletedProcessingDate": "2018-01-16T05:59:18+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50150017547",
+     "StartedProcessingDate": "2018-01-16T05:54:09+00:00",
+     "SubmittedDate": "2018-01-16T05:53:47+00:00",
+     "CompletedProcessingDate": "2018-01-16T05:55:20+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50148017546",
+     "StartedProcessingDate": "2018-01-15T09:34:26+00:00",
+     "SubmittedDate": "2018-01-15T09:34:10+00:00",
+     "CompletedProcessingDate": "2018-01-15T09:35:39+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50147017546",
+     "StartedProcessingDate": "2018-01-15T09:31:06+00:00",
+     "SubmittedDate": "2018-01-15T09:30:46+00:00",
+     "CompletedProcessingDate": "2018-01-15T09:32:24+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50146017546",
+     "StartedProcessingDate": "2018-01-15T08:04:13+00:00",
+     "SubmittedDate": "2018-01-15T08:03:58+00:00",
+     "CompletedProcessingDate": "2018-01-15T08:06:15+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50145017546",
+     "StartedProcessingDate": "2018-01-15T03:08:28+00:00",
+     "SubmittedDate": "2018-01-15T03:08:14+00:00",
+     "CompletedProcessingDate": "2018-01-15T03:09:50+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50144017546",
+     "StartedProcessingDate": "2018-01-15T02:57:56+00:00",
+     "SubmittedDate": "2018-01-15T02:57:27+00:00",
+     "CompletedProcessingDate": "2018-01-15T02:59:23+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50143017546",
+     "StartedProcessingDate": "2018-01-15T02:45:16+00:00",
+     "SubmittedDate": "2018-01-15T02:44:54+00:00",
+     "CompletedProcessingDate": "2018-01-15T02:46:43+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50142017546",
+     "StartedProcessingDate": "2018-01-15T02:21:16+00:00",
+     "SubmittedDate": "2018-01-15T02:20:51+00:00",
+     "CompletedProcessingDate": "2018-01-15T02:22:45+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50141017546",
+     "StartedProcessingDate": "2018-01-15T01:35:48+00:00",
+     "SubmittedDate": "2018-01-15T01:35:23+00:00",
+     "CompletedProcessingDate": "2018-01-15T01:36:24+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50140017546",
+     "StartedProcessingDate": "2018-01-15T01:22:53+00:00",
+     "SubmittedDate": "2018-01-15T01:22:37+00:00",
+     "CompletedProcessingDate": "2018-01-15T01:24:13+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50136017543",
+     "StartedProcessingDate": "2018-01-12T06:09:39+00:00",
+     "SubmittedDate": "2018-01-12T06:09:24+00:00",
+     "CompletedProcessingDate": "2018-01-13T00:13:18+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50135017543",
+     "StartedProcessingDate": "2018-01-12T03:54:24+00:00",
+     "SubmittedDate": "2018-01-12T03:54:01+00:00",
+     "CompletedProcessingDate": "2018-01-12T03:56:09+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50134017543",
+     "StartedProcessingDate": "2018-01-12T03:45:52+00:00",
+     "SubmittedDate": "2018-01-12T03:45:15+00:00",
+     "CompletedProcessingDate": "2018-01-12T03:47:22+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50133017543",
+     "StartedProcessingDate": "2018-01-12T03:42:03+00:00",
+     "SubmittedDate": "2018-01-12T03:41:50+00:00",
+     "CompletedProcessingDate": "2018-01-12T03:43:10+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50132017543",
+     "StartedProcessingDate": "2018-01-12T02:58:39+00:00",
+     "SubmittedDate": "2018-01-12T02:58:18+00:00",
+     "CompletedProcessingDate": "2018-01-12T02:59:46+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50131017543",
+     "StartedProcessingDate": "2018-01-12T02:42:43+00:00",
+     "SubmittedDate": "2018-01-12T02:42:22+00:00",
+     "CompletedProcessingDate": "2018-01-12T02:43:48+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50130017543",
+     "StartedProcessingDate": "2018-01-12T02:14:20+00:00",
+     "SubmittedDate": "2018-01-12T02:13:49+00:00",
+     "CompletedProcessingDate": "2018-01-12T02:15:43+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50129017543",
+     "StartedProcessingDate": "2018-01-12T02:02:03+00:00",
+     "SubmittedDate": "2018-01-12T02:01:44+00:00",
+     "CompletedProcessingDate": "2018-01-12T02:03:23+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50127017542",
+     "StartedProcessingDate": "2018-01-12T00:42:15+00:00",
+     "SubmittedDate": "2018-01-11T06:26:44+00:00",
+     "CompletedProcessingDate": "2018-01-12T00:42:55+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50126017542",
+     "StartedProcessingDate": "2018-01-11T06:24:44+00:00",
+     "SubmittedDate": "2018-01-11T06:24:18+00:00",
+     "CompletedProcessingDate": "2018-01-12T00:41:43+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50125017542",
+     "StartedProcessingDate": "2018-01-11T05:37:51+00:00",
+     "SubmittedDate": "2018-01-11T05:37:30+00:00",
+     "CompletedProcessingDate": "2018-01-11T05:38:35+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50123017541",
+     "StartedProcessingDate": "2018-01-10T21:35:28+00:00",
+     "SubmittedDate": "2018-01-10T05:29:21+00:00",
+     "CompletedProcessingDate": "2018-01-10T21:36:18+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50122017541",
+     "SubmittedDate": "2018-01-10T03:45:38+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50121017541",
+     "SubmittedDate": "2018-01-10T02:24:34+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50120017541",
+     "SubmittedDate": "2018-01-10T01:42:55+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50119017541",
+     "StartedProcessingDate": "2018-01-10T01:33:05+00:00",
+     "SubmittedDate": "2018-01-10T01:32:44+00:00",
+     "CompletedProcessingDate": "2018-01-10T21:35:09+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50117017540",
+     "StartedProcessingDate": "2018-01-09T19:57:32+00:00",
+     "SubmittedDate": "2018-01-09T09:31:00+00:00",
+     "CompletedProcessingDate": "2018-01-09T21:31:04+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50116017540",
+     "StartedProcessingDate": "2018-01-09T19:57:13+00:00",
+     "SubmittedDate": "2018-01-09T07:41:08+00:00",
+     "CompletedProcessingDate": "2018-01-09T19:57:51+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50115017540",
+     "SubmittedDate": "2018-01-09T05:31:10+00:00",
+     "CompletedProcessingDate": "2018-01-09T09:25:44+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50114017540",
+     "StartedProcessingDate": "2018-01-09T19:53:53+00:00",
+     "SubmittedDate": "2018-01-09T05:29:39+00:00",
+     "CompletedProcessingDate": "2018-01-09T19:57:03+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50113017540",
+     "SubmittedDate": "2018-01-09T03:44:20+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50111017539",
+     "SubmittedDate": "2018-01-08T07:16:51+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50110017539",
+     "SubmittedDate": "2018-01-08T07:01:36+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50109017539",
+     "SubmittedDate": "2018-01-08T06:08:45+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50108017539",
+     "StartedProcessingDate": "2018-01-09T01:48:08+00:00",
+     "SubmittedDate": "2018-01-08T06:01:13+00:00",
+     "CompletedProcessingDate": "2018-01-09T19:53:33+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_CANCELLED_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50107017539",
+     "StartedProcessingDate": "2018-01-08T05:53:38+00:00",
+     "SubmittedDate": "2018-01-08T05:53:21+00:00",
+     "CompletedProcessingDate": "2018-01-09T01:47:46+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50106017539",
+     "StartedProcessingDate": "2018-01-08T05:46:10+00:00",
+     "SubmittedDate": "2018-01-08T05:45:44+00:00",
+     "CompletedProcessingDate": "2018-01-08T05:46:55+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50105017539",
+     "StartedProcessingDate": "2018-01-08T05:43:55+00:00",
+     "SubmittedDate": "2018-01-08T05:43:36+00:00",
+     "CompletedProcessingDate": "2018-01-08T05:44:35+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50104017539",
+     "StartedProcessingDate": "2018-01-08T02:49:11+00:00",
+     "SubmittedDate": "2018-01-08T02:48:52+00:00",
+     "CompletedProcessingDate": "2018-01-08T02:49:44+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50103017539",
+     "StartedProcessingDate": "2018-01-08T02:48:02+00:00",
+     "SubmittedDate": "2018-01-08T02:47:30+00:00",
+     "CompletedProcessingDate": "2018-01-08T02:49:20+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50102017539",
+     "StartedProcessingDate": "2018-01-08T02:41:46+00:00",
+     "SubmittedDate": "2018-01-08T02:41:30+00:00",
+     "CompletedProcessingDate": "2018-01-08T02:42:17+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50101017539",
+     "StartedProcessingDate": "2018-01-08T02:41:08+00:00",
+     "SubmittedDate": "2018-01-08T02:40:52+00:00",
+     "CompletedProcessingDate": "2018-01-08T02:41:57+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50100017539",
+     "StartedProcessingDate": "2018-01-08T02:38:10+00:00",
+     "SubmittedDate": "2018-01-08T02:37:09+00:00",
+     "CompletedProcessingDate": "2018-01-08T02:38:57+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50099017539",
+     "StartedProcessingDate": "2018-01-08T02:34:36+00:00",
+     "SubmittedDate": "2018-01-08T02:34:24+00:00",
+     "CompletedProcessingDate": "2018-01-08T02:36:00+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50098017539",
+     "StartedProcessingDate": "2018-01-08T02:33:44+00:00",
+     "SubmittedDate": "2018-01-08T02:33:19+00:00",
+     "CompletedProcessingDate": "2018-01-08T02:34:17+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50094017536",
+     "StartedProcessingDate": "2018-01-05T07:28:04+00:00",
+     "SubmittedDate": "2018-01-05T07:27:51+00:00",
+     "CompletedProcessingDate": "2018-01-05T07:28:45+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50093017536",
+     "StartedProcessingDate": "2018-01-05T07:21:59+00:00",
+     "SubmittedDate": "2018-01-05T07:21:37+00:00",
+     "CompletedProcessingDate": "2018-01-05T07:23:04+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50092017536",
+     "StartedProcessingDate": "2018-01-05T07:21:21+00:00",
+     "SubmittedDate": "2018-01-05T07:21:02+00:00",
+     "CompletedProcessingDate": "2018-01-05T07:22:25+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50091017536",
+     "StartedProcessingDate": "2018-01-05T07:11:59+00:00",
+     "SubmittedDate": "2018-01-05T07:11:37+00:00",
+     "CompletedProcessingDate": "2018-01-05T07:12:41+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50090017536",
+     "StartedProcessingDate": "2018-01-05T07:07:02+00:00",
+     "SubmittedDate": "2018-01-05T07:06:49+00:00",
+     "CompletedProcessingDate": "2018-01-05T07:07:50+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50089017536",
+     "StartedProcessingDate": "2018-01-05T07:06:20+00:00",
+     "SubmittedDate": "2018-01-05T07:06:03+00:00",
+     "CompletedProcessingDate": "2018-01-05T07:07:00+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50088017536",
+     "StartedProcessingDate": "2018-01-05T07:04:45+00:00",
+     "SubmittedDate": "2018-01-05T07:04:31+00:00",
+     "CompletedProcessingDate": "2018-01-05T07:06:20+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50087017536",
+     "StartedProcessingDate": "2018-01-05T06:58:00+00:00",
+     "SubmittedDate": "2018-01-05T06:57:33+00:00",
+     "CompletedProcessingDate": "2018-01-05T06:59:07+00:00"
+    },
+    {
+     "FeedProcessingStatus": "_DONE_",
+     "FeedType": "_POST_PRODUCT_DATA_",
+     "FeedSubmissionId": "50086017536",
+     "StartedProcessingDate": "2018-01-05T06:46:22+00:00",
+     "SubmittedDate": "2018-01-05T06:45:55+00:00",
+     "CompletedProcessingDate": "2018-01-05T06:47:40+00:00"
+    }
+   ],
+   "NextToken": "FtyXOzd2JiH2jpZedg0wbd5NQrk5OwjOkqXfxeqxsFSiJCFVdviczmO7jXjy/VwtICyhlLgHd4hT171PgPvOgEWENtRn4dCb+Ycqm7FueeyJmF6B4RCWD/vCopH67G/Xg40rM031nD3YsS3783kcZOR848YQWvC4dpywvsWR4fwPpnzws36KsPOFsSl6sjyej/Opu4UNNvRetoY4qbaMvnj1V8Hh4DhgTDdilOBpKRuTMu79SYH3fhSapAU85zzs/ZRuEluYfwaKXcKZyiH7NFPnDz2p3xCIWZjF74HHL2R7cRJdJZJpg6Joec5u1ZcKw/q75nYgdPsZcvJ8hXZS4h5zIM+C3aYbq87oyLmx1tWGbeN6W6zXOaoZPmsf24TpcI5ixVjyvwY="
+  },
+  "ResponseMetadata": {
+   "RequestId": "e25abb80-5011-48c9-b73e-2128224c99b9"
+  }
+ }
+}
+
+
+2018-02-01-14-24-59
+{
+ "AmazonEnvelope": {
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:noNamespaceSchemaLocation": "amzn-envelope.xsd",
+  "Header": {
+   "DocumentVersion": "1.02",
+   "MerchantIdentifier": "A23LGBE17JOXAI"
+  },
+  "MessageType": "ProcessingReport",
+  "Message": {
+   "MessageID": "1",
+   "ProcessingReport": {
+    "DocumentTransactionID": "50211017563",
+    "StatusCode": "Complete",
+    "ProcessingSummary": {
+     "MessagesProcessed": "1",
+     "MessagesSuccessful": "0",
+     "MessagesWithError": "1",
+     "MessagesWithWarning": "0"
+    },
+    "Result": [
+     {
+      "MessageID": "1",
+      "ResultCode": "Error",
+      "ResultMessageCode": "5000",
+      "ResultDescription": "XML Parsing Error at Line 34, Column 41: cvc-complex-type.2.4.b: The content of element 'BooksMisc' is not complete. One of '{Author, Binding}' is expected.",
+      "AdditionalInfo": {
+       "SKU": "9500-blue-S"
+      }
+     },
+     {
+      "MessageID": "1",
+      "ResultCode": "Error",
+      "ResultMessageCode": "5000",
+      "ResultDescription": "XML Parsing Error at Line 36, Column 40: cvc-complex-type.2.4.d: Invalid content was found starting with element 'VariationData'. No child element is expected at this point.",
+      "AdditionalInfo": {
+       "SKU": "9500-blue-S"
+      }
+     },
+     {
+      "MessageID": "1",
+      "ResultCode": "Error",
+      "ResultMessageCode": "5000",
+      "ResultDescription": "XML Parsing Error at Line 37, Column 17: cvc-complex-type.2.4.a: Invalid content was found starting with element 'VariationTheme'. One of '{Parentage}' is expected.",
+      "AdditionalInfo": {
+       "SKU": "9500-blue-S"
+      }
+     }
+    ]
+   }
+  }
+ }
+}
+
+
+2018-02-01-14-32-54
+{
+ "SubmitFeedResponse": {
+  "@xmlns": "http://mws.amazonaws.com/doc/2009-01-01/",
+  "SubmitFeedResult": {
+   "FeedSubmissionInfo": {
+    "FeedSubmissionId": "50212017563",
+    "FeedType": "_POST_PRODUCT_DATA_",
+    "SubmittedDate": "2018-02-01T06:32:54+00:00",
+    "FeedProcessingStatus": "_SUBMITTED_"
+   }
+  },
+  "ResponseMetadata": {
+   "RequestId": "a73c608f-bd78-4645-a517-cacb24308101"
+  }
+ }
+}
+
+
+2018-02-01-14-34-12
+{
+ "AmazonEnvelope": {
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:noNamespaceSchemaLocation": "amzn-envelope.xsd",
+  "Header": {
+   "DocumentVersion": "1.02",
+   "MerchantIdentifier": "A23LGBE17JOXAI"
+  },
+  "MessageType": "ProcessingReport",
+  "Message": {
+   "MessageID": "1",
+   "ProcessingReport": {
+    "DocumentTransactionID": "50212017563",
+    "StatusCode": "Complete",
+    "ProcessingSummary": {
+     "MessagesProcessed": "1",
+     "MessagesSuccessful": "0",
+     "MessagesWithError": "1",
+     "MessagesWithWarning": "0"
+    },
+    "Result": [
+     {
+      "MessageID": "1",
+      "ResultCode": "Error",
+      "ResultMessageCode": "5000",
+      "ResultDescription": "XML Parsing Error at Line 34, Column 41: cvc-complex-type.2.4.b: The content of element 'BooksMisc' is not complete. One of '{Author, Binding}' is expected.",
+      "AdditionalInfo": {
+       "SKU": "9500-blue-S"
+      }
+     },
+     {
+      "MessageID": "1",
+      "ResultCode": "Error",
+      "ResultMessageCode": "5000",
+      "ResultDescription": "XML Parsing Error at Line 36, Column 35: cvc-complex-type.2.4.d: Invalid content was found starting with element 'Material'. No child element is expected at this point.",
+      "AdditionalInfo": {
+       "SKU": "9500-blue-S"
+      }
+     }
+    ]
+   }
+  }
+ }
+}
+
+
+2018-02-01-14-39-03
+{
+ "SubmitFeedResponse": {
+  "@xmlns": "http://mws.amazonaws.com/doc/2009-01-01/",
+  "SubmitFeedResult": {
+   "FeedSubmissionInfo": {
+    "FeedSubmissionId": "50213017563",
+    "FeedType": "_POST_PRODUCT_DATA_",
+    "SubmittedDate": "2018-02-01T06:39:03+00:00",
+    "FeedProcessingStatus": "_SUBMITTED_"
+   }
+  },
+  "ResponseMetadata": {
+   "RequestId": "21041eec-ac55-4a5d-b03e-f4f464ce7a5b"
+  }
+ }
+}
+
+
+2018-02-01-14-41-36
+{
+ "AmazonEnvelope": {
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:noNamespaceSchemaLocation": "amzn-envelope.xsd",
+  "Header": {
+   "DocumentVersion": "1.02",
+   "MerchantIdentifier": "A23LGBE17JOXAI"
+  },
+  "MessageType": "ProcessingReport",
+  "Message": {
+   "MessageID": "1",
+   "ProcessingReport": {
+    "DocumentTransactionID": "50213017563",
+    "StatusCode": "Complete",
+    "ProcessingSummary": {
+     "MessagesProcessed": "1",
+     "MessagesSuccessful": "0",
+     "MessagesWithError": "1",
+     "MessagesWithWarning": "0"
+    },
+    "Result": {
+     "MessageID": "1",
+     "ResultCode": "Error",
+     "ResultMessageCode": "5000",
+     "ResultDescription": "XML Parsing Error at Line 33, Column 45: cvc-complex-type.2.4.a: Invalid content was found starting with element 'IndustrialMisc'. One of '{Abrasives, AdhesivesAndSealants, CuttingTools, ElectronicComponents, Gears, Grommets, IndustrialHose, IndustrialWheels, MechanicalComponents, ORings, PrecisionMeasuring}' is expected.",
+     "AdditionalInfo": {
+      "SKU": "9500-blue-S"
+     }
+    }
+   }
+  }
+ }
+}
+
+
+2018-02-01-14-46-13
+{
+ "SubmitFeedResponse": {
+  "@xmlns": "http://mws.amazonaws.com/doc/2009-01-01/",
+  "SubmitFeedResult": {
+   "FeedSubmissionInfo": {
+    "FeedSubmissionId": "50214017563",
+    "FeedType": "_POST_PRODUCT_DATA_",
+    "SubmittedDate": "2018-02-01T06:46:13+00:00",
+    "FeedProcessingStatus": "_SUBMITTED_"
+   }
+  },
+  "ResponseMetadata": {
+   "RequestId": "361702f3-bde8-4aec-ac4f-59ca754b01dd"
+  }
+ }
+}
+
+
+2018-02-01-14-47-41
+{
+ "AmazonEnvelope": {
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:noNamespaceSchemaLocation": "amzn-envelope.xsd",
+  "Header": {
+   "DocumentVersion": "1.02",
+   "MerchantIdentifier": "A23LGBE17JOXAI"
+  },
+  "MessageType": "ProcessingReport",
+  "Message": {
+   "MessageID": "1",
+   "ProcessingReport": {
+    "DocumentTransactionID": "50214017563",
+    "StatusCode": "Complete",
+    "ProcessingSummary": {
+     "MessagesProcessed": "1",
+     "MessagesSuccessful": "0",
+     "MessagesWithError": "1",
+     "MessagesWithWarning": "0"
+    },
+    "Result": [
+     {
+      "MessageID": "1",
+      "ResultCode": "Error",
+      "ResultMessageCode": "5000",
+      "ResultDescription": "XML Parsing Error at Line 34, Column 41: cvc-complex-type.2.4.b: The content of element 'BooksMisc' is not complete. One of '{Author, Binding}' is expected.",
+      "AdditionalInfo": {
+       "SKU": "9500-blue-S"
+      }
+     },
+     {
+      "MessageID": "1",
+      "ResultCode": "Error",
+      "ResultMessageCode": "5000",
+      "ResultDescription": "XML Parsing Error at Line 36, Column 35: cvc-complex-type.2.4.d: Invalid content was found starting with element 'Material'. No child element is expected at this point.",
+      "AdditionalInfo": {
+       "SKU": "9500-blue-S"
+      }
+     }
+    ]
+   }
+  }
+ }
+}
+
+
+2018-02-01-14-48-24
+{
+ "SubmitFeedResponse": {
+  "@xmlns": "http://mws.amazonaws.com/doc/2009-01-01/",
+  "SubmitFeedResult": {
+   "FeedSubmissionInfo": {
+    "FeedSubmissionId": "50215017563",
+    "FeedType": "_POST_PRODUCT_DATA_",
+    "SubmittedDate": "2018-02-01T06:48:23+00:00",
+    "FeedProcessingStatus": "_SUBMITTED_"
+   }
+  },
+  "ResponseMetadata": {
+   "RequestId": "8dad9853-733f-40a9-82c7-ce80af7ef6de"
+  }
+ }
+}
+
+
+2018-02-01-14-48-42
+{
+ "ErrorResponse": {
+  "@xmlns": "http://mws.amazonaws.com/doc/2009-01-01/",
+  "Error": {
+   "Type": "Sender",
+   "Code": "FeedProcessingResultNotReady",
+   "Message": "Feed Submission Result is not ready for Feed 50215017563",
+   "Detail": null
+  },
+  "RequestID": "43c7bdbf-70fc-4ccf-a89a-3354253df8e5"
+ }
+}
+
+
+2018-02-01-14-49-56
+{
+ "AmazonEnvelope": {
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:noNamespaceSchemaLocation": "amzn-envelope.xsd",
+  "Header": {
+   "DocumentVersion": "1.02",
+   "MerchantIdentifier": "A23LGBE17JOXAI"
+  },
+  "MessageType": "ProcessingReport",
+  "Message": {
+   "MessageID": "1",
+   "ProcessingReport": {
+    "DocumentTransactionID": "50215017563",
+    "StatusCode": "Complete",
+    "ProcessingSummary": {
+     "MessagesProcessed": "1",
+     "MessagesSuccessful": "0",
+     "MessagesWithError": "1",
+     "MessagesWithWarning": "0"
+    },
+    "Result": [
+     {
+      "MessageID": "1",
+      "ResultCode": "Error",
+      "ResultMessageCode": "5000",
+      "ResultDescription": "XML Parsing Error at Line 33, Column 39: cvc-complex-type.2.4.a: Invalid content was found starting with element 'BabyMisc'. One of '{BabyProducts}' is expected.",
+      "AdditionalInfo": {
+       "SKU": "9500-blue-S"
+      }
+     },
+     {
+      "MessageID": "1",
+      "ResultCode": "Error",
+      "ResultMessageCode": "5000",
+      "ResultDescription": "XML Parsing Error at Line 36, Column 35: cvc-complex-type.2.4.d: Invalid content was found starting with element 'Material'. No child element is expected at this point.",
+      "AdditionalInfo": {
+       "SKU": "9500-blue-S"
+      }
+     }
+    ]
+   }
+  }
+ }
+}
+
+
+2018-02-01-15-14-52
+{
+ "ListAllFulfillmentOrdersResponse": {
+  "@xmlns": "http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/",
+  "ListAllFulfillmentOrdersResult": {
+   "FulfillmentOrders": null
+  },
+  "ResponseMetadata": {
+   "RequestId": "1e681fa9-f4d2-41e2-b678-908afc0c7b51"
+  }
+ }
+}
+
+
+2018-02-01-15-15-03
+{
+ "ListAllFulfillmentOrdersResponse": {
+  "@xmlns": "http://mws.amazonaws.com/FulfillmentOutboundShipment/2010-10-01/",
+  "ListAllFulfillmentOrdersResult": {
+   "FulfillmentOrders": null
+  },
+  "ResponseMetadata": {
+   "RequestId": "69235d45-cede-4420-8774-1def6df5de22"
+  }
+ }
+}
+
+
+2018-02-05-09-40-27
+2018-02-05-09-41-15
+None
+
+
+2018-02-05-09-46-39
+None
+
+
+2018-02-05-09-47-53
+None
+
+
+2018-02-05-09-53-21
+None
+
+
+2018-02-05-09-56-20
+<html><title>500: Internal Server Error</title><body>500: Internal Server Error</body></html>
+
+
+2018-02-05-09-56-47
+{
+ "GetProductCategoriesForSKUResponse": {
+  "@xmlns": "http://mws.amazonservices.com/schema/Products/2011-10-01",
+  "GetProductCategoriesForSKUResult": {
+   "Self": [
+    {
+     "ProductCategoryId": "1258603011",
+     "ProductCategoryName": "Fashion Hoodies & Sweatshirts",
+     "Parent": {
+      "ProductCategoryId": "1040660",
+      "ProductCategoryName": "Clothing",
+      "Parent": {
+       "ProductCategoryId": "7147440011",
+       "ProductCategoryName": "Women",
+       "Parent": {
+        "ProductCategoryId": "7141124011",
+        "ProductCategoryName": "Departments",
+        "Parent": {
+         "ProductCategoryId": "7141123011",
+         "ProductCategoryName": "Clothing, Shoes & Jewelry"
+        }
+       }
+      }
+     }
+    },
+    {
+     "ProductCategoryId": "7581668011",
+     "ProductCategoryName": "Shops",
+     "Parent": {
+      "ProductCategoryId": "7147440011",
+      "ProductCategoryName": "Women",
+      "Parent": {
+       "ProductCategoryId": "7141124011",
+       "ProductCategoryName": "Departments",
+       "Parent": {
+        "ProductCategoryId": "7141123011",
+        "ProductCategoryName": "Clothing, Shoes & Jewelry"
+       }
+      }
+     }
+    }
+   ]
+  },
+  "ResponseMetadata": {
+   "RequestId": "c4ccad63-d89f-46a4-833f-874faebebb1b"
+  }
+ }
+}
+
+
+2018-02-05-09-58-48
+{
+ "ErrorResponse": {
+  "@xmlns": "http://mws.amazonservices.com/schema/Products/2011-10-01",
+  "Error": {
+   "Type": "Sender",
+   "Code": "InvalidParameterValue",
+   "Message": "VOE_TSHIRT_0118 is an invalid SellerSKU for marketplace ATVPDKIKX0DER",
+   "Detail": null
+  },
+  "RequestID": "46739891-ffb8-455a-a1a6-7c3ccac1f4b2"
+ }
+}
+
+
+2018-02-05-09-59-56
+None
+
+
+2018-02-05-10-01-14
+{
+ "GetProductCategoriesForSKUResponse": {
+  "@xmlns": "http://mws.amazonservices.com/schema/Products/2011-10-01",
+  "GetProductCategoriesForSKUResult": {
+   "Self": {
+    "ProductCategoryId": "165795011",
+    "ProductCategoryName": "Categories",
+    "Parent": {
+     "ProductCategoryId": "165793011",
+     "ProductCategoryName": "Toys & Games"
+    }
+   }
+  },
+  "ResponseMetadata": {
+   "RequestId": "ae098055-1a8c-4057-bb26-a123a45da08b"
+  }
+ }
+}
+
+
+2018-02-06-16-12-08
+{
+ "GetProductCategoriesForSKUResponse": {
+  "@xmlns": "http://mws.amazonservices.com/schema/Products/2011-10-01",
+  "GetProductCategoriesForSKUResult": {
+   "Self": {
+    "ProductCategoryId": "165795011",
+    "ProductCategoryName": "Categories",
+    "Parent": {
+     "ProductCategoryId": "165793011",
+     "ProductCategoryName": "Toys & Games"
+    }
+   }
+  },
+  "ResponseMetadata": {
+   "RequestId": "734c98aa-eaa7-4af0-b231-ea165f7e6324"
+  }
+ }
+}
+
+
+2018-02-06-16-40-27
+{
+ "GetProductCategoriesForSKUResponse": {
+  "@xmlns": "http://mws.amazonservices.com/schema/Products/2011-10-01",
+  "GetProductCategoriesForSKUResult": {
+   "Self": {
+    "ProductCategoryId": "165795011",
+    "ProductCategoryName": "Categories",
+    "Parent": {
+     "ProductCategoryId": "165793011",
+     "ProductCategoryName": "Toys & Games"
+    }
+   }
+  },
+  "ResponseMetadata": {
+   "RequestId": "1424875a-c557-4a29-b269-1ab1a381f783"
+  }
+ }
+}
+
+

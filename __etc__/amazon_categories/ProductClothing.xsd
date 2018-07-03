@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<!-- Revision="$Revision: 1.2 $" -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <!--
+    $Date: 2006/06/21 15:25:43 $
+
+    AMAZON.COM CONFIDENTIAL.  This document and the information contained in it are
+    confidential and proprietary information of Amazon.com and may not be reproduced, 
+    distributed or used, in whole or in part, for any purpose other than as necessary 
+    to list products for sale on the www.amazon.com web site pursuant to an agreement 
+    with Amazon.com.
+    -->
+
+    <xsd:include schemaLocation="amzn-base.xsd"/>
+
+    <xsd:element name="Clothing">
+        <xsd:complexType>
+            <xsd:sequence>
+
+                <xsd:element name="VariationData" minOccurs="0">
+                    <xsd:complexType>
+                         <xsd:sequence>
+
+                            <xsd:element name="Parentage" minOccurs="0" >
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                        <xsd:enumeration value="parent"/>
+                                        <xsd:enumeration value="child"/>
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+
+                            <xsd:element name="Size" type="String" minOccurs="0" default="*"/>
+                            <xsd:element name="Color" type="String" minOccurs="0" default="*"/>
+
+                            <xsd:element name="VariationTheme" minOccurs="0">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                        <xsd:enumeration value="Size"/>
+                                        <xsd:enumeration value="Color"/>
+                                        <xsd:enumeration value="SizeColor"/>
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+
+                <xsd:element name="ClassificationData">
+                     <xsd:complexType>
+                        <xsd:sequence>
+
+                            <xsd:element name="ClothingType">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                        <xsd:enumeration value="Shirt"/>
+                                        <xsd:enumeration value="Sweater"/>
+                                        <xsd:enumeration value="Pants"/>
+                                        <xsd:enumeration value="Shorts"/>
+                                        <xsd:enumeration value="Skirt"/>
+                                        <xsd:enumeration value="Dress"/>
+                                        <xsd:enumeration value="Suit"/>
+                                        <xsd:enumeration value="Blazer"/>
+                                        <xsd:enumeration value="Outerwear"/>
+                                        <xsd:enumeration value="SocksHosiery"/>
+                                        <xsd:enumeration value="Underwear"/>
+                                        <xsd:enumeration value="Bra"/>
+                                        <xsd:enumeration value="Shoes"/>
+                                        <xsd:enumeration value="Hat"/>
+                                        <xsd:enumeration value="Bag"/>
+                                        <xsd:enumeration value="Accessory"/>
+                                        <xsd:enumeration value="Jewelry"/>
+                                        <xsd:enumeration value="Sleepwear"/>
+                                        <xsd:enumeration value="Swimwear"/>
+                                        <xsd:enumeration value="PersonalBodyCare"/>
+                                        <xsd:enumeration value="HomeAccessory"/>
+                                        <xsd:enumeration value="NonApparelMisc"/>
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+
+                            <xsd:element name="Department" type="StringNotNull" maxOccurs="10"/>
+                            <xsd:element name="StyleKeywords" type="LongStringNotNull" maxOccurs="10"/>
+                            <xsd:element name="PlatinumKeywords" type="String" minOccurs="0" maxOccurs="20"/>
+                            <xsd:element name="ColorMap" type="String" minOccurs="0"/>
+                            <xsd:element name="SpecialSizeType" type="String" minOccurs="0" maxOccurs="10"/>
+                            <xsd:element name="MaterialAndFabric" type="LongString" minOccurs="0" maxOccurs="4"/>
+                            <xsd:element name="OccasionAndLifestyle" type="LongString" minOccurs="0" maxOccurs="10"/>
+                            <xsd:element name="EventKeywords" type="LongString" minOccurs="0" maxOccurs="10"/>
+                            <xsd:element name="IsCustomizable" type="xsd:boolean" minOccurs="0"/>
+                            <xsd:element name="CustomizableTemplateName" type="StringNotNull" minOccurs="0"/>
+                            <xsd:element name="SizeMap" minOccurs="0">
+                                <xsd:simpleType>
+                                        <xsd:restriction base="xsd:string">
+                                                <xsd:enumeration value="XXXXX-Small"/>
+                                                <xsd:enumeration value="XXXX-Small"/>
+                                                <xsd:enumeration value="XXX-Small"/>
+                                                <xsd:enumeration value="XX-Small"/>
+                                                <xsd:enumeration value="X-Small"/>
+                                                <xsd:enumeration value="Small"/>
+                                                <xsd:enumeration value="Medium"/>
+                                                <xsd:enumeration value="Large"/>
+                                                <xsd:enumeration value="X-Large"/>
+                                                <xsd:enumeration value="XX-Large"/>
+                                                <xsd:enumeration value="XXX-Large"/>
+                                                <xsd:enumeration value="XXXX-Large"/>
+                                                <xsd:enumeration value="XXXXX-Large"/>
+                                        </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="WaistSize" type="ClothingSizeDimension" minOccurs="0"/>
+                            <xsd:element name="InseamLength" type="ClothingSizeDimension" minOccurs="0"/>
+                            <xsd:element name="SleeveLength" type="ClothingSizeDimension" minOccurs="0"/>
+                            <xsd:element name="NeckSize" type="ClothingSizeDimension" minOccurs="0"/>
+                            <xsd:element name="ChestSize" type="ClothingSizeDimension" minOccurs="0"/>
+                            <xsd:element name="CupSize" minOccurs="0">
+                                <xsd:simpleType>
+                                        <xsd:restriction base="xsd:string">
+                                                <xsd:enumeration value="A"/>
+                                                <xsd:enumeration value="B"/>
+                                                <xsd:enumeration value="C"/>
+                                                <xsd:enumeration value="D"/>
+                                                <xsd:enumeration value="DD"/>
+                                                <xsd:enumeration value="DDD"/>
+                                                <xsd:enumeration value="E"/>
+                                                <xsd:enumeration value="F"/>
+                                                <xsd:enumeration value="FF"/>
+                                                <xsd:enumeration value="G"/>
+                                                <xsd:enumeration value="H"/>
+                                                <xsd:enumeration value="I"/>
+                                        </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="ShoeWidth" minOccurs="0">
+                                <xsd:simpleType>
+                                        <xsd:restriction base="xsd:string">
+                                                <xsd:enumeration value="AAAA"/>
+                                                <xsd:enumeration value="AAA"/>
+                                                <xsd:enumeration value="AA"/>
+                                                <xsd:enumeration value="A"/>
+                                                <xsd:enumeration value="B"/>
+                                                <xsd:enumeration value="C"/>
+                                                <xsd:enumeration value="D"/>
+                                                <xsd:enumeration value="E"/>
+                                                <xsd:enumeration value="E"/>
+                                                <xsd:enumeration value="EE"/>
+                                                <xsd:enumeration value="EEE"/>
+                                                <xsd:enumeration value="EEEE"/>
+                                                <xsd:enumeration value="EEEEE"/>
+                                        </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>
+
+
